@@ -1,0 +1,35 @@
+.categories{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    .card{
+        height: 50vh;
+        width: 300px;
+        height: 100%;
+        position: relative;
+       img{
+        height: 50vh;
+        width: 100%;
+       }
+       .button{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: fit-content;
+        height: 40px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        border: 0;
+       }
+    }
+
+
+}
